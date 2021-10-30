@@ -1,0 +1,234 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+
+  <nav class="nav">
+    <div class="logo">
+      <h2>Travel</h2>
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About </a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact </a></li>
+    </ul>
+  </nav>
+   
+<div class="image-container">
+  <div class="text">Services</div>
+</div>
+
+<h1>We offered best services</h1>
+<p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales grass is fish whales winged.</p>
+  
+  <section>
+<div class="brow">
+  <div class="bcolumn">
+    <div class="bcard">
+      <img src="trans.png" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Transportation</h2>
+        <p class="title">All transportation cost we bear</p>
+      </div>
+    </div>
+  </div>
+
+   <div class="bcolumn">
+    <div class="bcard">
+      <img src="guide.png" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Guidence</h2>
+        <p class="title">We offer the best guidence for you</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="bcolumn">
+    <div class="bcard">
+      <img src="acc.png" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Accomodation</h2>
+        <p class="title">Luxarious and comfortable</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h1>Destinations</h1>
+<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+ 
+<div class="brow">
+  <div class="bcolumn">
+    <div class="bcard">
+      <img src="greece.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>santorini, Greece</h2>
+        <p class="title">$590</p>
+      </div>
+    </div>
+  </div>
+
+   <div class="bcolumn">
+    <div class="bcard">
+      <img src="italy.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Rome, Italy</h2>
+        <p class="title">$390</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="bcolumn">
+    <div class="bcard">
+      <img src="japan.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Mount Fuji, Japan</h2>
+        <p class="title">$390</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="bcolumn">
+  <div class="brow">
+    <div class="bcard">
+      <img src="dubai.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Dubai</h2>
+        <p class="title">$320</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+   <div class="bcolumn">
+    <div class="bcard">
+      <img src="lundon.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>London</h2>
+        <p class="title">$290</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="bcolumn">
+    <div class="bcard">
+      <img src="australia.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Australia</h2>
+        <p class="title">$390</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<div class="footer">
+  <p>&copy;Copyright website 2021.com</p>
+</div>
+</body>
+
+<!--______________________________________________________________________styling______________________________________________________-->
+<style type="text/css">
+  
+    body {font-family: Arial, Helvetica, sans-serif;}
+
+.image-container {
+  background-image: url("pink.jpg");
+  background-size: cover;
+  position: relative;
+  height: 300px;
+}
+.text {
+  background-color: white;
+  color: black;
+  font-size: 7vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
+
+ h1{
+  text-align: center;
+  margin-top: 5%;
+ }
+ p{
+  text-align: center;
+  margin-top: 2%;
+ }
+ section{
+  margin-top: 3%;
+ }
+
+ h2{
+  text-align: center;
+ }
+ 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.bcolumn {
+  float: left;
+  width: 27%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 350px) {
+  .bcolumn {
+    width: 100%;
+    display: block;
+  }
+}
+
+.bcard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .brow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+ 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rosybrown;
+   color: black;
+   text-align: center;
+}
+</style>
+</html>
